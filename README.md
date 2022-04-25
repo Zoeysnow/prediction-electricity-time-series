@@ -1,19 +1,23 @@
 # prediction-electricity-time-series
 Forecast the demand on electricity for next 12 months 
 
-Skill sets: 
+**Skill sets: **
 - time series
 - correct a dataset of its innate variable,s 
 - deseasonalisation / correction time series of seasonality 
 - prediction with stationary data and non-stationary data through diverse methods: Exponential Smoothing, SARIMA 
 
+------
+
 
 **Mise en situation**
+
 Vous êtes employé chez Enercoop, société coopérative qui s'est développée grâce à la libéralisation du marché de l’électricité en France. Elle est spécialisée dans les énergies renouvelables.
 
 La plupart de ces énergies renouvelables est cependant intermittente, il est donc difficile de prévoir les capacités de production d'électricité. De plus, la demande en électricité des utilisateurs varie au cours du temps, et dépend de paramètres comme la météo (température, luminosité, etc.) Tout le challenge est de mettre en adéquation l'offre et la demande !
 
 **Les données**
+
 Vous téléchargerez les données mensuelles de consommation totale d'électricité en énergie à partir de cette page.
 
 Les données météo que vous utiliserez pour corriger les données de l'effet température sont présentes ici : https://cegibat.grdf.fr/simulateur/calcul-dju
