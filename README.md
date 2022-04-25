@@ -18,9 +18,9 @@ La plupart de ces énergies renouvelables est cependant intermittente, il est do
 
 **Les données**
 
-Vous téléchargerez les données mensuelles de consommation totale d'électricité en énergie à partir de cette page.
+- les données mensuelles de consommation totale d'électricité en énergie: https://www.rte-france.com/eco2mix/telecharger-les-indicateurs.
 
-Les données météo que vous utiliserez pour corriger les données de l'effet température sont présentes ici : https://cegibat.grdf.fr/simulateur/calcul-dju
+- les données météo pour corriger les données de l'effet température: https://cegibat.grdf.fr/simulateur/calcul-dju
 
 **Votre mission**
 
