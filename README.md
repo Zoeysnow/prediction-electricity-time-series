@@ -1,4 +1,4 @@
-**Forecast the demand on electricity for next 12 months **
+# Forecast the demand on electricity for next 12 months
 
 **Skill sets**
 - time series
@@ -19,10 +19,12 @@ La plupart de ces énergies renouvelables est cependant intermittente, il est do
 
 **Les jeux de données / Data sets**
 
-- les données mensuelles de consommation totale d'électricité en énergie *(Dataset on monthly electricity consumption)* : 
+- les données mensuelles de consommation totale d'électricité en énergie 
+- *(Dataset on monthly electricity consumption)*: 
 https://www.rte-france.com/eco2mix/telecharger-les-indicateurs
 
-- les données météo pour corriger les données de l'effet température *(original data on weather, where the temperature effect is measured by DJU)*: 
+- les données météo pour corriger les données de l'effet température 
+- *(original data on weather, where the temperature effect is measured by DJU)*: 
 - https://cegibat.grdf.fr/simulateur/calcul-dju
 
 **Mission / Business goal**
@@ -32,7 +34,8 @@ Vous vous concentrerez uniquement sur la prédiction de la demande en électrici
 2. Effectuez une désaisonnalisation de la consommation que vous aurez obtenue après correction, grâce aux moyennes mobiles. 
 3. Effectuez une prévision de la consommation (corrigée de l'effet température) sur un an, en utilisant la méthode de Holt Winters (lissage exponentiel) puis la méthode SARIMA sur la série temporelle.
 
-* You're going to forecast the future consumption on electricity. Tasks hereinafter: * 
+------
+# You're going to forecast the future consumption on electricity. Tasks hereinafter: * 
 * 1. Correct the monthly electricity consumtion data of the effect from temperature (precisely due to electric heating). 
 * 2. Once you got the corrected dataset from Q1, we need to deseasonalize (remove the seasonal effect) it to obtain the trend.  
 * 3. Forecast the electricity consumption for the futuer 12 months (without taking into account the temperature effect) by using 2 methods for time series: Exponential Smoothing, SARIMA. 
