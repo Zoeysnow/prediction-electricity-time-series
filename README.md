@@ -15,7 +15,8 @@ Vous êtes employé chez Enercoop, société coopérative qui s'est développée
 
 La plupart de ces énergies renouvelables est cependant intermittente, il est donc difficile de prévoir les capacités de production d'électricité. De plus, la demande en électricité des utilisateurs varie au cours du temps, et dépend de paramètres comme la météo (température, luminosité, etc.) Tout le challenge est de mettre en adéquation l'offre et la demande !
 
-*ENERCOOP is a French electricity company specialised in renewable electricty production. While the company had difficulty in forecasting the electricity consumption, especially when it differs with time and depends on many factors such as weather (temperature, sunshine, huminity etc). As a Data Analyst, you're going to fill the gap between demand and production.*
+(EN) 
+ENERCOOP is a French electricity company specialised in renewable electricty production. While the company had difficulty in forecasting the electricity consumption, especially when it differs with time and depends on many factors such as weather (temperature, sunshine, huminity etc). As a Data Analyst, you're going to fill the gap between demand and production.
 
 ### Les jeux de données / Data sets
 
@@ -34,8 +35,8 @@ Vous vous concentrerez uniquement sur la prédiction de la demande en électrici
 2. Effectuez une désaisonnalisation de la consommation que vous aurez obtenue après correction, grâce aux moyennes mobiles. 
 3. Effectuez une prévision de la consommation (corrigée de l'effet température) sur un an, en utilisant la méthode de Holt Winters (lissage exponentiel) puis la méthode SARIMA sur la série temporelle.
 
-
-### You're going to forecast the future consumption on electricity. Tasks hereinafter: 
+(EN)
+You're going to forecast the future consumption on electricity. Tasks hereinafter: 
 
 1. Correct the monthly electricity consumtion data of the effect from temperature (precisely due to electric heating). 
 
