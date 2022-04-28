@@ -1,10 +1,10 @@
-## Forecast the demand on electricity for next 12 months 
+## Predict the demand on electricity for next 12 months 
 
 ### Skill sets
 - time series
 - correct a dataset of its innate variable,s 
 - deseasonalisation / correct the values of time series from the seasonality 
-- prediction with stationary data and non-stationary data through diverse methods: Exponential Smoothing, SARIMA 
+- predictive modeling: prediction throughout diverse methods: Exponential Smoothing, SARIMA 
 
 ------
 
@@ -16,6 +16,7 @@ Vous êtes employé chez Enercoop, société coopérative qui s'est développée
 La plupart de ces énergies renouvelables est cependant intermittente, il est donc difficile de prévoir les capacités de production d'électricité. De plus, la demande en électricité des utilisateurs varie au cours du temps, et dépend de paramètres comme la météo (température, luminosité, etc.) Tout le challenge est de mettre en adéquation l'offre et la demande !
 
 (EN) 
+
 ENERCOOP is a French electricity company specialised in renewable electricty production. While the company had difficulty in forecasting the electricity consumption, especially when it differs with time and depends on many factors such as weather (temperature, sunshine, huminity etc). As a Data Analyst, you're going to fill the gap between demand and production.
 
 ### Les jeux de données / Data sets
@@ -25,8 +26,10 @@ ENERCOOP is a French electricity company specialised in renewable electricty pro
 https://www.rte-france.com/eco2mix/telecharger-les-indicateurs
 
 - les données météo pour corriger les données de l'effet température 
-- *(original data on weather, where the temperature effect is measured by DJU)*: 
-- https://cegibat.grdf.fr/simulateur/calcul-dju
+- *(original data on weather, where the temperature effect is measured by DJU)*: https://cegibat.grdf.fr/simulateur/calcul-dju
+
+*Noticing that here these 2 datasets are both for Ile-de-France.*
+
 
 ### Mission / Business goal
 
@@ -36,6 +39,7 @@ Vous vous concentrerez uniquement sur la prédiction de la demande en électrici
 3. Effectuez une prévision de la consommation (corrigée de l'effet température) sur un an, en utilisant la méthode de Holt Winters (lissage exponentiel) puis la méthode SARIMA sur la série temporelle.
 
 (EN)
+
 You're going to forecast the future consumption on electricity. Tasks hereinafter: 
 
 1. Correct the monthly electricity consumtion data of the effect from temperature (precisely due to electric heating). 
